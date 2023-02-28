@@ -1,0 +1,37 @@
+.form__container {
+  border: 1px solid #b491c8;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  height: fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+form {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+select {
+  font-size: 12px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  direction: rtl;
+  background-color: whitesmoke;
+  color: black;
+}
+option {
+  font-size: 12px;
+  background-color: #7c5295;
+}
+button {
+  font-size: 14px;
+  background-color: #663a82;
+}
+
+.form__container span {
+  font-size: 12px;
+  color: rgb(236, 79, 79);
+  padding: 0 1px 1px 1px;
+}

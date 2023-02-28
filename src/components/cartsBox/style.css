@@ -1,0 +1,5 @@
+.box__container {
+  flex-flow: wrap;
+  display: flex;
+  gap: 1rem;
+}
